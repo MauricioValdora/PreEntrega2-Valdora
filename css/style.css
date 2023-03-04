@@ -80,19 +80,9 @@ main section h2{
     /* background-image: linear-gradient(290deg,#ffe993,#ed831c); */
 }
 
-.first-section{
-}
-.second-section{
+
+.section{
     background-color: bisque;
-
-}
-
-.third-section{
-
-    /* background-image: linear-gradient(290deg,#ffe993,#ed831c); */
-    background-color: bisque;
-
-
 }
 
 h3{
@@ -134,7 +124,7 @@ footer a:hover{
 .fotos{
     display: flex;
     flex-wrap: wrap;
-    background-image: linear-gradient(180deg,#ffe993,#ed831c);
+    background-color: bisque;
 
 }
 .fotos img{
@@ -142,7 +132,7 @@ footer a:hover{
     width: 500px;
     height: 500px;
     border-radius: 50px;
-    box-shadow: 20px 20px 20px 10px rgba(87, 215, 232, 0.462);
+    box-shadow: 20px 20px 20px 10px rgba(208, 214, 200, 0.639);
 }
 hr {
     height:5px;
@@ -159,6 +149,8 @@ hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: bisque;
+
 
 }
 .spots iframe{
@@ -256,6 +248,8 @@ width: 500px;
     font-family: 'ZCOOL KuaiLe', sans-serif;
     font-size: 50px;
     padding-bottom: 20px;
+    background-color: bisque;
+
 }
 .titulo-spots{
     padding-top: 150px;
@@ -263,6 +257,8 @@ width: 500px;
     font-family: 'ZCOOL KuaiLe', sans-serif;
     font-size: 50px;
     padding-bottom: 20px;
+    background-color: bisque;
+
 }
 .titulo-vendimia{
     padding-top: 150px;
@@ -270,4 +266,12 @@ width: 500px;
     font-family: 'ZCOOL KuaiLe', sans-serif;
     font-size: 50px;
     padding-bottom: 20px;
+}
+.main-vendimia{
+    background-color: bisque;
+
+}
+.main-videos{
+    background-color: bisque;
+
 }
