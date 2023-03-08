@@ -13,29 +13,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kavoon&family=Lato:wght@300&family=Rock+Salt&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
     <title>Skate-Land</title>
 </head>
 <body>
-    <header class="header">
-
-         <div class="logo ">
-          <a href="/index.html" >SkateLand</a>
+ 
+      <header class="header">
+        <div class="logo">
+          <a href="/index.html">SkateLand</a>
         </div>
-              
-        <nav class="nav">
-            <ul class="links">
-                        <li><a href="./pages/videos.html">videos</a></li>
-                        <li><a href="./pages/fotos.html">fotos</a></li>
-                        <li><a href="./pages/spots.html">Spots</a></li>
-                        <li><a href="./pages/vendimia.html">Vendimia</a></li>
-            </ul>
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+
+        <nav class="nav" id="nav">
+          <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+
+          <ul class="links">
+            <li><a href="./pages/videos.html">videos</a></li>
+            <li><a href="./pages/fotos.html">fotos</a></li>
+            <li><a href="./pages/spots.html">Spots</a></li>
+            <li><a href="./pages/vendimia.html">Vendimia</a></li>
+          </ul>
         </nav>
-        
       </header>
-      
+     
       <main>
 
-       
         <section class="first-section section">
             <h1>
             Skater de la semana
@@ -43,7 +46,7 @@
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="./assets/img/images.jpg" class="d-block w-100" alt="...">
+                    <img src="./assets/img/as_skate_westgate_threeflip_576.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
                     <img src="http://idosk8.com/wp-content/uploads/2013/09/brandon-westgate-360flip.gif" class="d-block w-100" alt="...">
@@ -91,6 +94,7 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
 
 </body>
 </html>
