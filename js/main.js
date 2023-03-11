@@ -9,3 +9,13 @@ abrir.addEventListener("click", () => {
 cerrar.addEventListener("click", () => {
     nav.classList.remove("visible");
 })
+
+window.onload = function() {
+    const fadeElems = document.querySelectorAll('.fade-in');
+    fadeElems.forEach(function(elem) {
+      elem.classList.add('show');
+    });
+  };
+
+
+  

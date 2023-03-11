@@ -1,19 +1,17 @@
 *{
     padding: 0;
-    margin: 0;    
-    
-
+    margin: 0;
 }
+  
 .header{
     width: 100%;
     background-image: linear-gradient(290deg,#ffe993,#ed831c);
-    background-clip:text ;  
+    /* background-clip:text ;   */
     display: inline-grid;
     grid-template-columns: 1fr  1fr;
     box-shadow: 10px 10px 5px 12px rgba(122, 133, 133, 0.119);
     z-index: 1000;
     position: fixed;
-
     
 }
 .nav{
@@ -71,13 +69,11 @@ main section h1{
     padding-top: 150px;  
     background-color: bisque;
 
-      /* background-image: linear-gradient(290deg,#ffe993,#ed831c); */
 }
 main section h2{
     font-family: 'ZCOOL KuaiLe', sans-serif;
     font-size: 50px; 
     text-align: center;
-    /* background-image: linear-gradient(290deg,#ffe993,#ed831c); */
 }
 
 
@@ -251,6 +247,32 @@ width: 500px;
     background-color: bisque;
 
 }
+/* -----------------------------------------------------Animacion izquierda-derecha------------------------------------------------------------------ */
+.animacion-izquierda {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: aparecer 1s ease forwards;
+  }
+  
+  @keyframes aparecer {
+    to {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+
+  .animacion-derecha {
+    opacity: 0;
+    transform: translateX(100%);
+    animation: aparecer 1s ease forwards;
+  }
+  
+  @keyframes aparecer {
+    to {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
 
 /* --------------------------------------------------------boton burguer----------------------------------------------------------- */
 
@@ -315,9 +337,7 @@ width: 500px;
         align-items: end;
         gap: 1rem;
         position: absolute;
-        /* top: 0;
-        right: 0;
-        bottom: 0; */
+      
         background-image: linear-gradient(290deg,#ffe993,#ed831c);
         padding: 2rem;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
@@ -395,9 +415,7 @@ width: 500px;
         align-items: end;
         gap: 1rem;
         position: absolute;
-        /* top: 0;
-        right: 0;
-        bottom: 0; */
+   
         background-image: linear-gradient(290deg,#ffe993,#ed831c);
         padding: 2rem;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
