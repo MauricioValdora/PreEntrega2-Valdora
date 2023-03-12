@@ -1,0 +1,16 @@
+footer{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    background-image: $color-header;
+    a{
+        font-size: 50px;
+        margin: 10px;
+        text-decoration:none;
+        color:inherit;
+    }
+    a:hover{
+        font-size: 60px;
+        transition: 0.2s;
+        }
+}

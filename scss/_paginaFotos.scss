@@ -1,0 +1,22 @@
+.fotos{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $color-background;
+    img{
+        margin: 50px;
+        width: 500px;
+        height: 500px;
+        border-radius: 50px;
+        box-shadow: 20px 20px 20px 10px rgba(208, 214, 200, 0.639);
+    }
+}
+
+.titulo-fotos{
+    padding-top: 150px;
+    text-align: center;
+    font-family: $font-global;
+    font-size: 50px;
+    padding-bottom: 20px;
+    background-color: $color-background;
+
+}

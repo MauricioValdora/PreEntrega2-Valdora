@@ -1,0 +1,164 @@
+
+.abrir-menu,
+.cerrar-menu {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .header{
+        width: 950px;
+    }
+    .header .logo a{
+        font-size: 30px;
+    }
+
+
+    .section {
+        width: 950px;
+    }
+    footer{
+        width: 950px;
+
+    }
+    .fotos,.titulo-fotos,.main-vendimia,.titulo-spots,.spots,.main-videos{
+        width: 950px;
+    }
+    .carousel{
+        width: 950px;
+        margin-left: 0px;
+
+    }
+
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+        
+    }
+
+    .abrir-menu {
+        color: #1c1c1c;
+        font-size: 40px;
+        
+    }
+
+    .cerrar-menu {
+        color: #ececec;
+        font-size: 40px;
+
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+      
+        background-image: $color-header;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+        z-index: 1000;
+        position: fixed;
+
+    }
+
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .links {
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .links li a {
+        color: #ecececec;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .header{
+        width: 521px;
+    }
+    .header .logo a{
+        font-size: 30px;
+    }
+
+
+    .section {
+        width: 521px;
+    }
+    footer{
+        width: 521px;
+
+    }
+    .fotos,.titulo-fotos,.main-vendimia,.titulo-spots,.spots,.main-videos{
+        width: 521px;
+    }
+    .carousel{
+        width: 521px;
+
+    }
+
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+        
+    }
+
+    .abrir-menu {
+        color: #1c1c1c;
+        font-size: 40px;
+        
+    }
+
+    .cerrar-menu {
+        color: #ececec;
+        font-size: 40px;
+
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+   
+        background-image: $color-header;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+        z-index: 1000;
+        position: fixed;
+
+    }
+
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .links {
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .links li a {
+        color: #ecececec;
+    }
+}

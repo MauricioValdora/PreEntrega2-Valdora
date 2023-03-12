@@ -1,0 +1,23 @@
+
+.spots{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: $color-background;
+    iframe{
+
+        margin: 10px;
+        border-radius: 30px;
+    }
+
+}
+
+.titulo-spots{
+    padding-top: 150px;
+    text-align: center;
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+    font-size: 50px;
+    padding-bottom: 20px;
+    background-color: $color-background;
+
+}

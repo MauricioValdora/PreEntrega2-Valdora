@@ -1,0 +1,66 @@
+
+main{
+    section{
+        h1{
+            font-family: $font-global, sans-serif;
+            font-size: 50px; 
+            text-align: center;
+            padding-top: 150px;  
+            background-color: $color-background;
+
+        }
+        h2{
+            font-family: $font-global;
+            font-size: 50px; 
+            text-align: center;
+
+        }
+    }
+}
+
+.section{
+    background-color: $color-background;
+    img{
+        border-radius: 40px;
+        width: 500px;
+        
+    }
+    iframe{
+        border-radius: 40px;
+        width: 500px;
+    }
+
+}
+
+h3{
+    margin: 20px;
+}
+
+main{
+    text-align: center;
+    font-size: 30px;
+
+}
+.foto{
+    height: 500px;
+}
+
+hr {
+    height:5px;
+    width:1fr;
+    border-width:0;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-color:black;
+  }
+    
+
+    
+.carousel-inner img{
+    height: 500px;
+    position:relative;
+    z-index: 1;
+}
+    
