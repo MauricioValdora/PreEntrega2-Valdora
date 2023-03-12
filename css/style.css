@@ -122,11 +122,14 @@ footer .btn{
     right: 20px;
     font-size: 50px;
     display: none; 
-
-}
-.btn:hover {
-  font-size: 60px;
-  transition: 0.2s;
+    border: #1c1c1c solid;
+    border-radius: 20px;
+    
+    
+  }
+  .btn:hover {
+    font-size: 60px;
+    transition: 0.2s;
 }
 
 .fotos {
