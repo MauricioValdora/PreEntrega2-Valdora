@@ -2,7 +2,7 @@
 main{
     section{
         h1{
-            font-family: $font-global, sans-serif;
+            font-family: map-get($map: $fuentes, $key: font-global), sans-serif;
             font-size: 50px; 
             text-align: center;
             padding-top: 150px;  
@@ -10,7 +10,7 @@ main{
 
         }
         h2{
-            font-family: $font-global;
+            font-family:map-get($map: $fuentes, $key: font-global);
             font-size: 50px; 
             text-align: center;
 

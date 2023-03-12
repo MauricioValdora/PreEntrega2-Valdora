@@ -2,7 +2,7 @@
 .titulo-videos{
     padding-top: 150px;
     text-align: center;
-    font-family: $font-global;
+    font-family: map-get($map: $fuentes, $key: font-global);
     font-size: 50px;
     padding-bottom: 20px;
 
