@@ -1,3 +1,8 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+/* -----------------------------------------------------------------estilos para el nav-------------------------------------------------------------- */
 .header {
   width: 100%;
   background-image: linear-gradient(290deg, #ffe993, #ed831c);
@@ -57,6 +62,8 @@ a {
   border-radius: 100px;
 }
 
+/* ------------------------------------------------------------------seccion principal------------------------------------------------------------- */
+
 main section h1 {
   font-family: "ZCOOL KuaiLe", sans-serif;
   font-size: 50px;
@@ -91,12 +98,13 @@ main {
   height: 500px;
 }
 
-
 .carousel-inner img {
   height: 500px;
   position: relative;
   z-index: 1;
 }
+
+/* -----------------------------------------------------------------------foooter------------------------------------------------------------------- */
 
 footer {
   text-align: center;
@@ -127,10 +135,12 @@ footer .btn{
     
     
   }
-  .btn:hover {
+.btn:hover {
     font-size: 60px;
     transition: 0.2s;
 }
+
+/* ------------------------------------------------------------------Pagina de fotos-------------------------------------------------------------- */
 
 .fotos {
   display: flex;
@@ -154,6 +164,8 @@ footer .btn{
   background-color: bisque;
 }
 
+/* ------------------------------------------------------------------------Pagina de spots----------------------------------------------------------- */
+
 .spots {
   display: flex;
   flex-wrap: wrap;
@@ -174,6 +186,8 @@ footer .btn{
   padding-bottom: 20px;
   background-color: bisque;
 }
+
+/* -----------------------------------------------------------------------------Pagina de productos---------------------------------------------------- */
 
 .producto {
   display: flex;
@@ -199,7 +213,6 @@ footer .btn{
   flex-direction: column;
   margin: 10px;
 }
-
 .titulo-vendimia {
   padding-top: 150px;
   text-align: center;
@@ -211,6 +224,8 @@ footer .btn{
 .main-vendimia {
   background-color: bisque;
 }
+
+/* -----------------------------------------------------------------------Pagina de videos------------------------------------------------------------- */
 
 .titulo-videos {
   padding-top: 150px;
@@ -234,6 +249,8 @@ footer .btn{
   animation: aparecer 1s ease forwards;
 }
 
+/* -------------------------------------------------------------------keyframes------------------------------------------------------------------------- */
+
 @keyframes aparecer {
   to {
     opacity: 1;
@@ -256,6 +273,8 @@ footer .btn{
 .cerrar-menu {
   display: none;
 }
+
+/* --------------------------------------------------------------media queryes-------------------------------------------------------------------- */
 
 @media screen and (max-width: 1000px) {
   .header {
@@ -379,10 +398,6 @@ footer .btn{
   .links li a {
     color: rgba(236, 236, 236, 0.9254901961);
   }
-}
-* {
-  padding: 0;
-  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
